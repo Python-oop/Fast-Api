@@ -1,1 +1,5 @@
 My api: product with id 1 is run on back
+MyApi: hello babe
+	http://127.0.0.1:8000/dependencies?seperator=ganesh&tag=MyApi&message=hello%20babe
+MyApi: ganesh babe
+	http://127.0.0.1:8000/dependencies/new?tag=MyApi&message=ganesh%20babe&seperator=fuck
