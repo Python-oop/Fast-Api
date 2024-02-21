@@ -1,14 +1,17 @@
 <head>
-<link rel="stylesheet" href="{{url_for('static', path='/styles.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', path='/styles.css')}}">
+
 <body>
 
     <div class="tpl_product">
         <div class="tpl_title">
-            <div class="tpl_description">
-                <div class="tpl_price">
-
-                </div>
-            </div>
+            {{title}}
+        </div>
+        <div class="tpl_description">
+            {{desc}}
+        </div>
+        <div class="tpl_price">
+            {{price}}
         </div>
     </div>
 </body>
